@@ -1,0 +1,120 @@
+/* Basic CSS Reset */
+* {
+    margin: auto 30px;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  /* Header Styling */
+  header {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+  }
+
+  header img {
+    max-width:80px;
+  }
+
+
+  header h1 {
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  /* Main Content Container */
+  .main-content {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  /* Images Section */
+  .images-section {
+    display: flex;
+    flex-wrap: wrap;   
+    justify-content: center;
+    gap: 10px;
+    margin: 20px;
+  }
+  
+  .images-section img {
+    width: auto;
+    height: 300px;
+    object-fit: contain;
+  }
+  
+  /* Description Section */
+  .description {
+    margin-bottom: 30px;
+    text-align: left;
+  }
+  
+  .description h2 {
+    font-size: 1.75rem;
+    margin-bottom: 10px;
+    color: #444;
+  }
+  
+  .description p {
+    color: #666;
+    margin-bottom: 20px;
+    line-height: 1.5;
+  }
+  
+  /* Waitlist Section */
+  .waitlist-section {
+    background-color: #f0f8ff;
+    padding: 30px;
+    border-radius: 4px;
+    margin-bottom: 30px;
+  }
+  
+  .waitlist-section p {
+    margin-bottom: 15px;
+  }
+  
+  .waitlist-form input[type="email"] {
+    padding: 10px;
+    font-size: 16px;
+    width: 250px;
+    max-width: 80%;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .waitlist-form button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .waitlist-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Footer Styling */
+  footer {
+    text-align: center;
+    background-color: #f8f8f8;
+    padding: 15px 0;
+    margin-top: 20px;
+  }
+  
+  footer p {
+    color: #999;
+    font-size: 0.9rem;
+  }

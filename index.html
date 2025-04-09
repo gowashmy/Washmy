@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Washmy – Welcome</title>
+  <!-- Link to external CSS file -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <img src="./logo.png" alt = "Washmy Logo"> 
+    <h1>Try out Washmy! </h1>
+  </header>
+  
+  <div class="main-content">
+
+ <!-- Description Section -->
+ <div class="description">
+    <h2>The App to Simplify Your Laundry</h2>
+    <p>
+      Introducing the smart way to wash your clothes! Washmy uses cutting-edge 
+      technology to analyze your laundry and provide personalized instructions 
+      for optimal cleaning. No more guesswork or damaged fabrics—just a seamless, 
+      efficient laundry routine. Our AI-powered app scans clothing labels, suggests wash cycles, and manages 
+      your wardrobe history—all at the tap of a button.
+    </p>
+  </div>
+
+    <!-- Images Section: Replace the placeholder URLs with your actual image URLs -->
+    <div class="images-section">
+      <img src="./images/Image1.png" alt="Product Image 1">
+      <img src="./images/Image2.png" alt="Product Image 2">
+      <img src="./images/Image3.png" alt="Product Image 3">
+      <img src="./images/Image4.png" alt="Product Image 4">
+      <img src="./images/Image5.png" alt="Product Image 5">
+      <img src="./images/Image6.png" alt="Product Image 5">
+    </div>
+    
+   
+    <!-- Waitlist Section -->
+    <div class="waitlist-section">
+      <p>Interested in trying Washmy? The app is currently under development, please enter your email to join our waitlist. You will be notified as soon as the app is available for download on IOS and Android:</p>
+      <form id="waitlistForm" class="waitlist-form">
+        <input type="email" id="userEmail" placeholder="Enter your email" required>
+        <button type="submit">Notify Me</button>
+      </form>
+    </div>
+  </div>
+  
+  
+  <!-- EmailJS Library -->
+  <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+  </script>
+  <!-- Link to external JavaScript file -->
+  <script type="text/javascript">
+    emailjs.init('za3_tEi1BeJZkuBl7')
+  </script>
+  <script src="script.js"></script>
+</body>
+</html>

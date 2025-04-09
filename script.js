@@ -29,8 +29,8 @@ document.getElementById("waitlistForm").addEventListener("submit", function(even
     const userEmailParams = {
       to_email: userEmail,
       from_email:"washmy.info@gmail.com",
-      subject_line: "Welcome to Wash Me!",
-      message: `Thank you for joining the Wash Me waitlist. We appreciate your interest and will keep you updated as soon as our product is ready for launch!`
+      subject_line: "Thank you for your interest in Washmy!",
+      message: `Thank you for joining the Washmy waitlist. We appreciate your interest and will keep you updated as soon as the app is available for download on IOS and Android!`
     };
     
     // Send the confirmation email to the user using EmailJS.
